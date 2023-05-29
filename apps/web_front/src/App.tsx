@@ -1,10 +1,9 @@
-import { Header } from "@/components/Header.tsx";
+import BreadCrumb from "@/components/BreadCrumb/BreadCrumb.tsx";
 
 function App() {
   return (
     <>
-      <div>whw</div>
-      <Header />
+      <BreadCrumb/>
     </>
   );
 }
