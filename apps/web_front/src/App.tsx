@@ -5,7 +5,6 @@ import { ThemeContext } from "@emotion/react";
 
 function App() {
   const [theme,colorMode]= useColoMode()
-
   return (
     <>
       <ColorModeContext.Provider value={colorMode}>

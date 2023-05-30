@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7970b26-bf1d-4704-b2a0-d38d18488f4c" name="更改" comment="&quot;theme&quot;">
-      <change afterPath="$PROJECT_DIR$/apps/web_front/src/components/BasicFab.tsx" afterDir="false" />
+    <list default="true" id="f7970b26-bf1d-4704-b2a0-d38d18488f4c" name="更改" comment="&quot;添加主题切换&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/web_front/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_front/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web_front/src/components/BreadCrumb/BreadCrumb.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web_front/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_front/src/main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/web_front/src/theme/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_front/src/theme/theme.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +68,7 @@
       <updated>1685375702191</updated>
       <workItem from="1685375705233" duration="9115000" />
       <workItem from="1685453207680" duration="212000" />
-      <workItem from="1685453645236" duration="7693000" />
+      <workItem from="1685453645236" duration="7979000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;更改为vite&quot;">
       <created>1685375867502</created>
@@ -101,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685405454697</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;添加主题切换&quot;">
+      <created>1685461525262</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685461525262</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +138,7 @@
     <option name="CODE_SMELLS_PROFILE" value="Project Default" />
     <MESSAGE value="&quot;更改为vite&quot;" />
     <MESSAGE value="&quot;theme&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;theme&quot;" />
+    <MESSAGE value="&quot;添加主题切换&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;添加主题切换&quot;" />
   </component>
 </project>

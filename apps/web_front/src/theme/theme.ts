@@ -159,6 +159,7 @@ export const tokens = (mode: PaletteMode) => ({
       }),
 });
 
+//通过token生成颜色返回主题对象
 export const themeSetting = (mode: PaletteMode): ThemeOptions => {
   const colors = tokens(mode);
   return {
@@ -191,7 +192,7 @@ export const themeSetting = (mode: PaletteMode): ThemeOptions => {
   };
 };
 
-interface IColorModeContext {
+export interface IColorModeContext {
   toggleColorMode: VoidFunction;
 }
 export const ColorModeContext = createContext<IColorModeContext>(
