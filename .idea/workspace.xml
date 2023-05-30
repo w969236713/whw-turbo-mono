@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7970b26-bf1d-4704-b2a0-d38d18488f4c" name="更改" comment="&quot;添加主题切换&quot;">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web_front/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_front/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web_front/src/theme/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_front/src/theme/theme.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <updated>1685375702191</updated>
       <workItem from="1685375705233" duration="9115000" />
       <workItem from="1685453207680" duration="212000" />
-      <workItem from="1685453645236" duration="7979000" />
+      <workItem from="1685453645236" duration="8162000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;更改为vite&quot;">
       <created>1685375867502</created>
@@ -105,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685461525262</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;添加主题切换&quot;">
+      <created>1685461746303</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685461746303</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
