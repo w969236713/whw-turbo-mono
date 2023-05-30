@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7970b26-bf1d-4704-b2a0-d38d18488f4c" name="更改" comment="&quot;更改为vite&quot;">
-      <change afterPath="$PROJECT_DIR$/apps/web_front/src/components/BreadCrumb/BreadCrumb.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/web_front/src/theme/theme.ts" afterDir="false" />
+    <list default="true" id="f7970b26-bf1d-4704-b2a0-d38d18488f4c" name="更改" comment="&quot;theme&quot;">
+      <change afterPath="$PROJECT_DIR$/apps/web_front/src/components/BasicFab.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web_front/.env.development" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_front/.env.development" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web_front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_front/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web_front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_front/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/web_front/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_front/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web_front/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_front/src/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web_front/src/components/BreadCrumb/BreadCrumb.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/web_front/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_front/src/main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web_front/src/theme/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_front/src/theme/theme.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,23 +36,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ReactCreateComponentLastSelected": "arrowFunctionComponent",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "pnpm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/whwcn/Desktop/repository/whw-turbo-mono/node_modules/prettier",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Users/whwcn/Desktop/repository/whw-turbo-mono/apps/web_front/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ReactCreateComponentLastSelected&quot;: &quot;arrowFunctionComponent&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/whwcn/Desktop/repository/whw-turbo-mono/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/whwcn/Desktop/repository/whw-turbo-mono/apps/web_front/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -72,7 +69,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685375702191</updated>
-      <workItem from="1685375705233" duration="4352000" />
+      <workItem from="1685375705233" duration="9115000" />
+      <workItem from="1685453207680" duration="212000" />
+      <workItem from="1685453645236" duration="7693000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;更改为vite&quot;">
       <created>1685375867502</created>
@@ -95,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685376109647</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;theme&quot;">
+      <created>1685405454697</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685405454697</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +133,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CODE_SMELLS_PROFILE" value="Project Default" />
     <MESSAGE value="&quot;更改为vite&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;更改为vite&quot;" />
+    <MESSAGE value="&quot;theme&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;theme&quot;" />
   </component>
 </project>
