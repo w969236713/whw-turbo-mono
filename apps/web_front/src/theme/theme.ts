@@ -171,7 +171,7 @@ export const themeSetting = (mode: PaletteMode): ThemeOptions => {
               main: colors.blueRamp["800"],
             },
             secondary: {
-              main: colors.orangeRamp["800"],
+              main: colors.cyanRamp["900"],
             },
             background: {
               default: "#fcfcfc",
@@ -182,7 +182,7 @@ export const themeSetting = (mode: PaletteMode): ThemeOptions => {
               main: colors.blueRamp["500"],
             },
             secondary: {
-              main: colors.orangeRamp["500"],
+              main: colors.cyanRamp["50"],
             },
             background: {
               default: "#222",

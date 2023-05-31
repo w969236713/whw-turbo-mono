@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7970b26-bf1d-4704-b2a0-d38d18488f4c" name="更改" comment="&quot;添加主题切换&quot;">
+    <list default="true" id="f7970b26-bf1d-4704-b2a0-d38d18488f4c" name="更改" comment="&quot;idea&quot;">
+      <change afterPath="$PROJECT_DIR$/apps/web_back/src/prisma/prisma.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web_front/src/components/ColorButtons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web_back/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_back/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web_back/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_back/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web_back/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_back/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web_front/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_front/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web_front/src/theme/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_front/src/theme/theme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +27,13 @@
       <list>
         <option value="TypeScript File" />
       </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
     </option>
   </component>
   <component name="Git.Settings">
@@ -31,23 +48,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ReactCreateComponentLastSelected&quot;: &quot;arrowFunctionComponent&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/whwcn/Desktop/repository/whw-turbo-mono/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/whwcn/Desktop/repository/whw-turbo-mono/apps/web_front/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ReactCreateComponentLastSelected": "arrowFunctionComponent",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/whwcn/Desktop/repository/whw-turbo-mono/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.typescriptcompiler",
+    "ts.external.directory.path": "/Users/whwcn/Desktop/repository/whw-turbo-mono/apps/web_back/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -110,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685461746303</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;idea&quot;">
+      <created>1685462020618</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685462020618</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +168,7 @@
     <MESSAGE value="&quot;更改为vite&quot;" />
     <MESSAGE value="&quot;theme&quot;" />
     <MESSAGE value="&quot;添加主题切换&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;添加主题切换&quot;" />
+    <MESSAGE value="&quot;idea&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;idea&quot;" />
   </component>
 </project>
