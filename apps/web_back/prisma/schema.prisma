@@ -9,18 +9,124 @@ datasource db {
   provider = "mysql"
   url      = env("DATABASE_URL")
 }
+
 model User {
-  id    Int     @default(autoincrement()) @id
-  email String  @unique
-  name  String?
-  posts Post[]
+  user_id                Int       @id @default(autoincrement())
+  user_email             String    @unique
+  usr_password           String
+  user_name              String
+  usr_nick_name          String
+  user_photo             String
+  user_ip                String
+  user_registration_time DateTime
+  user_birthdy           String
+  user_last_login_time   DateTime
+  user_phone             Int
+  user_create_time       DateTime
+  user_update_time       DateTime
+  article                Article[]
 }
 
-model Post {
-  id        Int      @default(autoincrement()) @id
-  title     String
-  content   String?
-  published Boolean? @default(false)
-  author    User?    @relation(fields: [authorId], references: [id])
-  authorId  Int?
+model Comment {
+  comment_id          Int      @id @default(autoincrement())
+  user_id             Int
+  article_id          Int
+  comment_like_count  Int
+  comment_create_time DateTime
+  comment_update_time DateTime
+  parent_comment_id   Int
+}
+
+model UserFriend {
+  id Int @id @default(autoincrement())
+
+  user_id Int
+
+  user_friend_id Int
+
+  user_note String
+
+  user_status String
+}
+
+model Article {
+  article_id Int @id @default(autoincrement())
+
+  user_id Int
+
+  article_title String
+
+  article_content String
+
+  article_views         Int
+  article_comment_count Int
+
+  article_create_time DateTime
+
+  article_like_count Int
+  User               User? @relation(fields: [userUser_id], references: [user_id])
+  userUser_id        Int?
+}
+
+model Category {
+  category_id        Int      @id @default(autoincrement())
+  category_name      String
+  category_desc      String
+  parent_category_id Int
+  create_time        DateTime
+  update_time        DateTime
+}
+
+model CategoryArticle {
+  article_id  Int @unique
+  category_id Int @unique
+}
+
+model Tag {
+  tag_id          Int      @id @default(autoincrement())
+  tag_name        String
+  tag_desc        String
+  tag_create_time DateTime
+  tag_update_time DateTime
+}
+
+model TagArticle {
+  article_id Int @unique
+  tag_id     Int
+}
+
+model Noticed {
+  notice_id      Int    @id @default(autoincrement())
+  notice_title   String
+  notice_type    String
+  notice_status  String
+  notice_content String
+  create_by      String
+  create_time    String
+  update_time    String
+}
+
+model OptLog {
+  log_id             Int      @id @default(autoincrement())
+  operation_ip       String
+  operation_location String
+  method             String
+  args               String
+  operation_name     String
+  operation_type     String
+  return_value       String
+  create_time        DateTime
+  update_time        DateTime
+}
+
+model LoginLog {
+  id             Int      @id @default(autoincrement())
+  login_name     String
+  ip_address     String
+  login_location String
+  browser_type   String
+  os             String
+  log_status     String
+  msg            String
+  create_time    DateTime
 }

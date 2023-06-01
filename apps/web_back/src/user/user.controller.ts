@@ -8,18 +8,22 @@ import {
   Delete,
 } from '@nestjs/common';
 import { UserService } from './user.service';
-import { CreateUserDto } from './dto/create-user.dto';
-import { UpdateUserDto } from './dto/update-user.dto';
 import { ApiResponse, ApiTags } from '@nestjs/swagger';
 
+import { Prisma } from '@prisma/client';
 @ApiTags('用户服务接口')
 @Controller('user')
 export class UserController {
   constructor(private readonly userService: UserService) {}
 
+  name?: string | null;
   @Post()
-  create(@Body() createUserDto: CreateUserDto) {
-    return this.userService.create(createUserDto);
+  create(@Body() data: Prisma.UserCreateInput) {
+    const { email, name } = data;
+    return this.userService.createUser({
+      email: email,
+      name: name,
+    });
   }
 
   @Get()
@@ -33,17 +37,25 @@ export class UserController {
     type: 'user',
   })
   @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.userService.findOne(+id);
+  findOne(@Param('id') id: number) {
+    return this.userService.findOne({
+      id,
+    });
   }
 
   @Patch(':id')
-  update(@Param('id') id: string, @Body() updateUserDto: UpdateUserDto) {
-    return this.userService.update(+id, updateUserDto);
+  update(
+    @Param('id') id: Prisma.UserWhereUniqueInput,
+    @Body() data: Prisma.UserUpdateInput,
+  ) {
+    return this.userService.updateUser({
+      where: id,
+      data,
+    });
   }
 
   @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.userService.remove(+id);
+  remove(@Param('id') id: Prisma.UserWhereUniqueInput) {
+    return this.userService.deleteUser(id);
   }
 }

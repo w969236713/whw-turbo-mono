@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7970b26-bf1d-4704-b2a0-d38d18488f4c" name="更改" comment="&quot;idea&quot;">
-      <change afterPath="$PROJECT_DIR$/apps/web_back/src/prisma/prisma.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/web_front/src/components/ColorButtons.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="f7970b26-bf1d-4704-b2a0-d38d18488f4c" name="更改" comment="&quot;user api&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/web_back/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_back/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web_back/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_back/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web_back/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_back/prisma/schema.prisma" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/web_back/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_back/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web_front/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_front/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web_front/src/theme/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_front/src/theme/theme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web_back/src/prisma/prisma.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_back/src/prisma/prisma.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web_back/src/user/user.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_back/src/user/user.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web_back/src/user/user.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_back/src/user/user.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web_back/src/user/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web_back/src/user/user.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +59,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "pnpm",
     "prettierjs.PrettierConfiguration.Package": "/Users/whwcn/Desktop/repository/whw-turbo-mono/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.typescriptcompiler",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "/Users/whwcn/Desktop/repository/whw-turbo-mono/apps/web_back/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -84,6 +83,8 @@
       <workItem from="1685375705233" duration="9115000" />
       <workItem from="1685453207680" duration="212000" />
       <workItem from="1685453645236" duration="8162000" />
+      <workItem from="1685618391682" duration="91000" />
+      <workItem from="1685618497417" duration="14502000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;更改为vite&quot;">
       <created>1685375867502</created>
@@ -134,7 +135,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685462020618</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&quot;添加nest prisma 服务链接数据库&quot;">
+      <created>1685551640014</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685551640014</updated>
+    </task>
+    <task id="LOCAL-00009" summary="&quot;user api&quot;">
+      <created>1685551727372</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685551727372</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +184,8 @@
     <MESSAGE value="&quot;theme&quot;" />
     <MESSAGE value="&quot;添加主题切换&quot;" />
     <MESSAGE value="&quot;idea&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;idea&quot;" />
+    <MESSAGE value="&quot;添加nest prisma 服务链接数据库&quot;" />
+    <MESSAGE value="&quot;user api&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;user api&quot;" />
   </component>
 </project>
